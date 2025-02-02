@@ -41,18 +41,18 @@ function ConveniosPage() {
               <Card>
                 <CardImg
                   alt="Convenios Académicos"
-                  src="https://via.placeholder.com/350x200"
+                  src={require("assets/img/Alinambi/fotoAlinambiUno.jpg")}
                   top
                 />
-                <CardBody>
-                  <CardTitle tag="h4">Convenios Académicos</CardTitle>
-                  <CardText>
+                <CardBody className="bg-info">
+                  <CardTitle tag="h4" className="text-white">Convenios Académicos</CardTitle>
+                  <CardText className="text-white">
                     <ul>
-                      <li>Universidades nacionales</li>
-                      <li>Instituciones internacionales</li>
+                      <li>Pontificia Universidad Católica del Ecuador (PUCE)</li>
+                      <li>Universidad de las Fuerzas Armadas (ESPE)</li>
+                      <li>Instituto Tecnológico Rumiñahui</li>
                       <li>Programas de intercambio</li>
                       <li>Certificaciones internacionales</li>
-                      <li>Programas de capacitación</li>
                     </ul>
                   </CardText>
                 </CardBody>
@@ -62,18 +62,18 @@ function ConveniosPage() {
               <Card>
                 <CardImg
                   alt="Convenios Deportivos"
-                  src="https://via.placeholder.com/350x200"
+                  src={require("assets/img/Alinambi/fotoAlinambiDos.jpg")}
                   top
                 />
-                <CardBody>
-                  <CardTitle tag="h4">Convenios Deportivos</CardTitle>
-                  <CardText>
+                <CardBody className="bg-info">
+                  <CardTitle tag="h4" className="text-white">Convenios Deportivos</CardTitle>
+                  <CardText className="text-white">
                     <ul>
-                      <li>Clubes deportivos</li>
+                      <li>Clubes deportivos locales</li>
                       <li>Federaciones deportivas</li>
                       <li>Competencias intercolegiales</li>
                       <li>Escuelas de formación</li>
-                      <li>Eventos deportivos</li>
+                      <li>Eventos deportivos nacionales</li>
                     </ul>
                   </CardText>
                 </CardBody>
@@ -83,12 +83,12 @@ function ConveniosPage() {
               <Card>
                 <CardImg
                   alt="Convenios Culturales"
-                  src="https://via.placeholder.com/350x200"
+                  src={require("assets/img/Alinambi/fotoAlinambiTres.jpg")}
                   top
                 />
-                <CardBody>
-                  <CardTitle tag="h4">Convenios Culturales</CardTitle>
-                  <CardText>
+                <CardBody className="bg-info">
+                  <CardTitle tag="h4" className="text-white">Convenios Culturales</CardTitle>
+                  <CardText className="text-white">
                     <ul>
                       <li>Centros culturales</li>
                       <li>Museos y galerías</li>
@@ -105,10 +105,10 @@ function ConveniosPage() {
             <Col md="12">
               <Card className="card-plain bg-info">
                 <CardBody>
-                  <h3 className="text-white">Beneficios para Estudiantes</h3>
+                  <h3 className="text-white text-center">Beneficios para Estudiantes</h3>
                   <Row>
                     <Col md="4">
-                      <h5 className="text-white">Académicos</h5>
+                      <h5 className="text-white text-center">Académicos</h5>
                       <ul className="text-white">
                         <li>Acceso a recursos educativos</li>
                         <li>Programas de mentoría</li>
@@ -116,7 +116,7 @@ function ConveniosPage() {
                       </ul>
                     </Col>
                     <Col md="4">
-                      <h5 className="text-white">Deportivos</h5>
+                      <h5 className="text-white text-center">Deportivos</h5>
                       <ul className="text-white">
                         <li>Uso de instalaciones</li>
                         <li>Entrenamiento especializado</li>
@@ -124,7 +124,7 @@ function ConveniosPage() {
                       </ul>
                     </Col>
                     <Col md="4">
-                      <h5 className="text-white">Culturales</h5>
+                      <h5 className="text-white text-center">Culturales</h5>
                       <ul className="text-white">
                         <li>Talleres artísticos</li>
                         <li>Eventos culturales</li>
